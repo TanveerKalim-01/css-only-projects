@@ -1,0 +1,17 @@
+body {
+    background-color: red;
+}
+
+/* Navbar */
+.nav-right {
+    flex-basis: 40%;
+    font-size:0.7rem;
+}
+
+/* Hero-section */
+
+/* sop-section */
+.shop .box {
+    width:30%;
+}
+/* Footter */

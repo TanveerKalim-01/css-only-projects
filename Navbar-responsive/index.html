@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Navbar</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo-container">
+          <img src="./logo.svg" alt="logo" />
+          <span>Procodrr</span>
+        </div>
+        <label for="hamburger" class="hamburger-container">
+          <img src="./Hamburger.svg" alt="hamburger" />
+          <input type="checkbox" id="hamburger" />
+        </label>
+        <nav class="nav-bar">
+          <ul>
+            <li>Home</li>
+            <div class="course">
+              <label for="checkbox"
+                >Course
+                <img src="./dropdown.svg" alt="dropdown" />
+              </label>
+              <input class="checkbox" type="checkbox" id="checkbox" />
+              <div class="dropdown-menu">
+                <p>Full HTML Course for Beginners in Hindi</p>
+                <p>Full CSS Course for Beginners in Hindi</p>
+                <p>The Complete JavaScript Course</p>
+                <p>Git and GitHub Fundamentals</p>
+                <p>Tailwind CSS Complete Course in Hindi</p>
+                <p>React.js Full Course in Hindi</p>
+              </div>
+            </div>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+          <div class="profile-container">
+            <img src="./profile.svg" alt="profile-img" />
+            <span>Tanveer</span>
+            <label for="hamburger">
+              <img class="close-btn" src="./close-btn.svg" alt="close-button" />
+            </label>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </body>
+</html>

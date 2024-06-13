@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+.toggle-switch-container label {
+    display: inline-block;
+    width: 28px;
+    height: 16px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    background-color: #E0E0E0;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.toggle-switch-container label .circle-switch {
+    font-size: 1em;
+    width: 12px;
+    height: 12px; 
+    border-radius: 50%;
+    background-color: white;
+    transition: all 400ms ease-in-out ;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 1px
+}
+
+.toggle-switch-container label:hover {
+    border-color:  #4A18D9;
+}
+
+.checkbox {
+    position: absolute;
+    opacity: 0;
+}
+
+
+.checkbox:checked + label {
+    background-color: #4A18D9;
+    outline: 2px solid #CFBFFF;
+}
+.checkbox:checked + label .circle-switch{
+ left: 100%;
+ transform: translateX(-100%);
+}
+
+
+.toggle-switch-container label:active {
+    outline: 2px solid #CFBFFF;
+}

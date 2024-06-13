@@ -1,0 +1,254 @@
+/* body {
+    background-image: url(blank\ image.avif);
+} */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    height: 75px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    position: fixed;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    /* overflow-y:scroll; */
+}
+
+.nav-logo {
+    height: 55px;
+    width: 100px;
+    padding-right: 30px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo img {
+    height: 45.14px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.nav-ops {
+    height: 55px;
+    flex-grow: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-ops ul {
+    margin-right: 120px;
+}
+
+.nav-ops ul a {
+    color: #323951;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding-right: 25px;
+}
+
+.blank {
+    height: 75px;
+    width: 100%;
+}
+
+/* heading */
+
+.heading {
+    height: 105.19px;
+    font-family: 'Barlow', sans-serif ;
+    font-weight: 900;
+    font-size: 1rem;
+    background-color: #f8f8fd;
+    border: 1px solid #f8f8fd;
+    color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative;
+    top:90px; */
+}
+
+.course {
+    font-family: 'Barlow', sans-serif !important;
+    font-weight: 900;
+    font-size: 1.31rem;
+    color: #262626;
+    margin-top: 90px;
+    margin-left: 60px;
+}
+
+/* hero-section */
+
+.hero-card {
+    /* height: 546.28px; */
+    width: 364px;
+    margin: 40px auto;
+}
+
+.card-img {
+    height: 203px;
+    width: 361.2px;
+    background-image: url(./images/images.jpg);
+    background-size: cover;
+}
+
+.card-img .tag {
+    color: white;
+    background-color: #6674cc;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 1px;
+    font-size: 10.8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+}
+/* lower card */
+
+.lw-card {
+    color:#262626;
+    background-color: #f8f8fd;
+    height: 303px;
+    width: 361.2px;
+    padding:18px;
+}
+
+/* lowercard top */
+.lw-card-top h3 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.31rem;
+    margin-bottom: 25px;
+}
+
+.lw-card-top p {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+/* lowercard bottom */
+
+.lw-card-bottom {
+    margin-top: 20px;
+}
+
+.lw-card-bottom p {
+    font-family: "Inter";
+    font-size: 0.875rem;
+    font-weight: bold;
+    letter-spacing: 0.01rem;
+    /* line-height: 1.55; */
+    text-transform: uppercase;
+}
+
+.lw-card-bottom .div1 {
+    display: inline-block;
+    width: 78%;
+    height: 5px;
+    background-color: #6674cc;
+}
+
+.lw-card-bottom .div2 {
+    display: inline-block;
+    width: 20%;
+    height: 5px;
+    background-color: #ffffff;
+}
+
+.lw-card-bottom button {
+    color: #ffffff;
+    background-color: #6674cc;
+    height: 43px;
+    width: 185.25px;
+    border: none;
+    margin-top: 20px;
+    font-size: 0.825rem;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+}
+
+/* section community icon */
+.community-icon h3 {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color:#262626;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.flex span {
+    font-size: 2rem;
+    margin-left: 15px;
+}
+
+.flex p {
+    font-size: 1.125rem;
+    color:#262626;
+    font-family: 'inter';
+    font-weight: bold;
+    opacity: 0.8;
+    line-height: 1.5;
+}
+
+/* footter */
+
+footer {
+    display: flex;
+    justify-content: space-evenly; 
+    font-family: "inter";
+    color: #262626;
+    /* margin-top: 80px;
+    margin-bottom: 30px; */
+    margin: 80px auto 30px;
+}
+footer h3 {
+    font-weight: bold;
+    font-size: 1.125rem;
+    margin-bottom: 40px;
+}
+
+footer p {
+    font-size: 1.125rem;
+    margin-bottom: 5px;
+}
+
+footer p i {
+    margin-right: 10px;
+}
+
+.ft-1-logo img {
+    height: 45.14px;
+    width: 100px;
+}
+
+.ft-1 .widgets {
+    font-size: 1.125rem;
+    font-weight: bold;
+    width: 228.45px;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+.copyright {
+    text-align: center;
+    font-family: "inter";
+    font-size: 1rem;
+    padding-bottom: 70px;
+}

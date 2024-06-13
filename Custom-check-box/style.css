@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --brand-color: #4A18D9;
+}
+.checkbox {
+    position: absolute;
+    appearance: none;
+    margin:0
+}
+label {
+    width: 20px; 
+    height: 20px; 
+    display: inline-block;
+    position: relative;
+    border: 1px solid #C2C2C2;;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+label:hover  {
+    border: 1px solid var(--brand-color);
+}
+label img {
+    width: 100%;
+}
+label:has(input:checked) {
+    background-color: var(--brand-color);;
+    border-color: var(--brand-color);;
+}
+label:has(input:focus) {
+    outline: 2px solid #CFBFFF;
+    border-color: var(--brand-color);;
+}
+label:active {
+    outline: 2px solid #CFBFFF;
+}
+
